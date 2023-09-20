@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.envcd.PORT || 5000;
 
 const cors = require('cors');
 app.use(cors()); // Allow all origins for development; adjust for production
@@ -16,7 +16,7 @@ const projectsRoutes = require('./routes/projects');
 app.use('/api/skills', skillsRoutes);
 app.use('/api/education', educationRoutes);
 app.use('/api/experience', experienceRoutes);
-app.use('/api/projects', projectsRoutes);
+app.use('/api/projects', projectsR -u outes);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
