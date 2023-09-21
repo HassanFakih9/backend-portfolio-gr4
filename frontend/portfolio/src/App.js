@@ -7,7 +7,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<PortfolioDashboard />} />
-       
+        <div>
+          <h1>Resume Download</h1>
+          <PDFDownloader pdfUrl="public/Layla_Abo_Saad_cv.pdf" fileName="Layla_Abo_Saad_cv.pdf" />
+        </div>
       </Routes>
     </Router>
   );
