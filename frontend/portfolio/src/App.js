@@ -1,15 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import PortfolioDashboard from './PortfolioDashboard';
-
+import React from "react";
+import Experience from "./components/experience";
+import Projects from "./components/projects";
+import "./App.css";
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<PortfolioDashboard />} />
-       
-      </Routes>
-    </Router>
+    <div>
+      <Projects />
+      <Experience />
+    </div>
   );
 }
 
