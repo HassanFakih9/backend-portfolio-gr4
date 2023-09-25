@@ -55,3 +55,6 @@ body {
   h1 {
     text-align: center;
   }
+  .card p {
+    text-align: justify;
+  }

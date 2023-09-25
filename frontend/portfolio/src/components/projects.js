@@ -2,15 +2,12 @@ import React from "react";
 const Projects = () => {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1>PROJECTS</h1>
       <div className="cards">
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <p>
-                Portfolio for Stone Age Group || WordPress ||
-                https://stoneage.group/
-              </p>
+              <p className="title-project">Portfolio for Stone Age Group</p>
             </div>
             <div className="flip-card-back">
               <p>
@@ -24,9 +21,8 @@ const Projects = () => {
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <p>
-                E-commerce website for “Mini-Garden” || MERN Stack ||
-                https://minigarden22a.netlify.app
+              <p className="title-project">
+                E-commerce website for “Mini-Garden”
               </p>
             </div>
             <div className="flip-card-back">
@@ -42,9 +38,8 @@ const Projects = () => {
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <p>
-                E-commerce website for “Vressocasa”|| LAMP Stack ||
-                https://www.vressocasa.com
+              <p className="title-project">
+                E-commerce website for “Vressocasa”
               </p>
             </div>
             <div className="flip-card-back">
